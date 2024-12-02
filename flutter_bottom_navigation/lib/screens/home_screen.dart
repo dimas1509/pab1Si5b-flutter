@@ -9,7 +9,10 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Home'),
       ),
-      body: const Text('Ini adalah halaman home'),
+      body: const Padding(
+        padding: EdgeInsets.all(16.0),
+        child: Text('Ini adalah halaman home'),
+      ),
     );
   }
 }
