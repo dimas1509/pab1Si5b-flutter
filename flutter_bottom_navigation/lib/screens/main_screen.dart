@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bottom_navigation/screens/favorite_screen.dart';
 import 'package:flutter_bottom_navigation/screens/home_screen.dart';
+import 'package:flutter_bottom_navigation/screens/profile_screen.dart';
 import 'package:flutter_bottom_navigation/screens/search_screen.dart';
 
 class MainScreen extends StatefulWidget {
@@ -17,7 +18,7 @@ class _MainScreenState extends State<MainScreen> {
     HomeScreen(),
     SearchScreen(),
     FavoriteScreen(),
-    SearchScreen(),
+    ProfileScreen(),
   ];
   void _onItemTapped(int index) {
     setState(() {
