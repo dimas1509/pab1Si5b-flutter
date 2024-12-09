@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class SearchScreen extends StatefulWidget {
+class SearchScreen extends StatelessWidget {
   const SearchScreen({super.key});
 
 
@@ -8,11 +8,11 @@ class SearchScreen extends StatefulWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar : AppBar(
-        title const Text('Favorite'),
+        title:  const Text('Search'),
       ),
-      body : const Padding(
-        padding : EdgeInsets.all(16.0),
-        child : Text('ini adalah halaman search'),
+      body: const Padding(
+        padding: EdgeInsets.all(16.0),
+        child: Text('ini adalah halaman search'),
       ),
     );
   }
