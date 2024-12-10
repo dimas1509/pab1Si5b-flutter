@@ -26,7 +26,11 @@ class HomeScreen extends StatelessWidget {
                   //Tampilan untuk 1 Grid
                   return InkWell(
                     onTap: () {
-                      Navigator.pushNamed(context, '/detail', arguments: candi);
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => 
+                              DetailScreen(Varcandi: candi)));
                     },
                     child: Card(
                       shape: RoundedRectangleBorder(
