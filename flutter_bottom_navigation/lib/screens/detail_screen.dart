@@ -1,6 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_grid_view/models/home.dart';
+import 'package:flutter_bottom_navigation/models/home.dart';
 
 class DetailScreen extends StatelessWidget {
   final Home varHome;
