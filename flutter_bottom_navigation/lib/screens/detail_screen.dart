@@ -6,7 +6,9 @@ class DetailScreen extends StatelessWidget {
   final Home varHome;
   const DetailScreen({super.key, required this.varHome});
 
+  
   @override
+  State <DetailScreen> createState() => _DetailScreenState();
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
