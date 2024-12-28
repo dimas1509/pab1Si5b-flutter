@@ -30,7 +30,7 @@ class HomeScreen extends StatelessWidget {
                           context,
                           MaterialPageRoute(
                             builder: (context) => 
-                              DetailScreen(Varcandi: candi)));
+                              DetailScreen(VarHome: varHome)));
                     },
                     child: Card(
                       shape: RoundedRectangleBorder(

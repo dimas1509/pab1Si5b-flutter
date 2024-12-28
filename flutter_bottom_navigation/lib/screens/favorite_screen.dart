@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grid_view/data/home_data.dart';
+import 'package:flutter_grid_view/data/home.dart';
 import 'package:flutter_grid_view/models/home.dart';
-import 'package:flutter_grid_view/screens/detail_screen.dart';
+import 'package:flutter_grid_view/screems/detail_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-
 class FavoriteScreen extends StatefulWidget {
   const FavoriteScreen({super.key});
 
